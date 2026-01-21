@@ -108,6 +108,8 @@ web-development-course/
  ┣ video 78 Authentication for NextAuth.js/
  ┣ video 79 Dynamic Routes/
  ┣ video 80 Layouts/
+ ┣ video 81 next navigation module/
+ ┣ video 82 SSR SSG ISR/
  ┗ Visibilty and z-index in html/
 ```
 
@@ -123,6 +125,7 @@ How to use
 
 ```powershell
 npm install
+npx create-next-app@latest
 npm run dev
 ```
 
