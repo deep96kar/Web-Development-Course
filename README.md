@@ -110,6 +110,8 @@ web-development-course/
  ┣ video 80 Layouts/
  ┣ video 81 next navigation module/
  ┣ video 82 SSR SSG ISR/
+ ┣ video 83 Environment Variables/
+ ┣ video 84 Styled JSX/
  ┗ Visibilty and z-index in html/
 ```
 
