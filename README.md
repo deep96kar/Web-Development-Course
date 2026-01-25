@@ -1,10 +1,8 @@
-**Web Development Course**
-========================================
+# Web Development Course
 
-This folder contains course materials and exercises for learning web development: short hands-on exercises, example source files and a long list of short video lessons covering HTML, CSS and JavaScript through to beginner-intermediate backend and React topics.
+This folder contains course materials and exercises for learning web development: short hands-on exercises, example source files, and a long list of short video lessons covering HTML, CSS and JavaScript through beginner–intermediate backend and React topics.
 
-Repository structure (top-level)
---------------------------------
+## Repository structure (top-level)
 
 ```
 web-development-course/
@@ -115,62 +113,67 @@ web-development-course/
  ┗ Visibilty and z-index in html/
 ```
 
-What this folder contains
--------------------------
+## What this folder contains
+
 - Short exercises (01–19) with example source files to practice individual concepts.
 - A long set of short video lessons grouped by topic — HTML basics, CSS fundamentals and layout, JavaScript concepts, plus introduction to backend and React topics.
 
-How to use
----------
+## Folder guide (কোন ফোল্ডারে কী আছে)
+
+### Exercises (01–19)
+
+- exercise 01: HTML video/audio tags + controls
+- exercise 02: Style a paragraph (basic CSS)
+- exercise 03: Create a card using HTML & CSS
+- exercise 04: Multi-color website (colors + styling practice)
+- exercise 05: CSS layout design practice
+- exercise 06: Navbar using Flexbox
+- exercise 07: CSS Grid practice
+- exercise 08: Animations & transforms
+- exercise 09: JavaScript basics (first usage)
+- exercise 10: Faulty calculator (logic + random behavior)
+- exercise 11: Business name generator (strings/arrays/random)
+- exercise 12: Factorial calculator
+- exercise 13: Random background & text color (DOM + styling)
+- exercise 14: Thumbnail page using JavaScript (DOM)
+- exercise 15: Fake “hacking” simulation (timers/promises)
+- exercise 16: Organize contents using folders (structure)
+- exercise 17: Express app + Mongoose dummy data
+- exercise 18: Tailwind CSS practice
+- exercise 19: Fetch data using React
+
+### Video lessons (by topic)
+
+- video 00–07: HTML basics (intro, forms, ids/classes, inline vs block, media tags)
+- video 08–21: CSS foundations (selectors, box model, fonts, positioning, media queries, etc.)
+- video 22–28: Layout & effects (Flexbox, Grid, transform, transition, animation, filters)
+- video 29–35: JavaScript fundamentals (variables, conditions, loops, functions, strings, arrays)
+- video 36–40: DOM + events (selecting, editing, events, timers)
+- video 41–43: Async JS + error handling (promises, async/await, fetch, try/catch)
+- video 44–46: OOP + advanced/interview topics
+- video 47–58: Backend (Node.js, npm, modules, Express, MongoDB, Mongoose, Tailwind, hosting)
+- video 59–71: React (components, hooks, router, context, memo/callback, forms, redux)
+- video 72–84: Next.js (server components, APIs, server actions, middleware, auth, SSR/SSG/ISR, env)
+- Visibilty and z-index in html/: CSS stacking and visibility topic
+
+## How to use
+
 - For static examples, open the relevant `index.html` in your browser.
-- For Node/Vite projects, run the following inside the project folder:
+- For Node/Express/React/Next/Vite-style projects, run the following inside the relevant project folder (the one that contains `package.json`):
 
 ```powershell
 npm install
-npx create-next-app@latest
 npm run dev
 ```
 
-Suggested improvements
----------------------
+If `npm run dev` is not available, check `package.json` and use the appropriate script (commonly `npm start` or `npm run build`).
+
+## Suggested improvements
+
 - Add a `COURSE_INDEX.md` mapping the key video lessons to learning goals and difficulty (easy/medium/hard).
 - Add one-line descriptions to each `exercise` folder (I can generate these automatically).
 
-Would you like me to:
-- Generate a `COURSE_INDEX.md` listing the most important videos and exercises?
-- Add a short description file inside each `exercise` folder automatically?
-**Web Development Course**
-========================================
+If you want, I can:
 
-This folder contains course materials for a web development training series: exercise folders, step-by-step tutorials, and a long list of video lessons covering HTML, CSS and JavaScript fundamentals through intermediate topics.
-
-Repository Structure
-=====================
-
-```
-web-development-course/
- ┣ exercise 01 video and audio tag with contorls/
- ┣ exercise 02 style a paragraph/
- ┣ ...
- ┣ exercise 19 Fetch data using react/
- ┣ video 00 html try/
- ┣ video 01 introduction  html/
- ┣ video 02 bookmarks/
- ┗ video 30+ (JS topics and more)
-```
-
-Contents overview
------------------
-- **Exercises (01–19):** Small hands-on tasks covering HTML elements, CSS layouts, Flexbox, Grid, animations, and JavaScript exercises.
-- **Video lessons:** A long sequence of short video-based lessons (HTML fundamentals, CSS topics, JavaScript basics to advanced topics like async/await, DOM, events, and classes).
-
-How to use
-----------
-- Open each exercise folder and follow the included `index.html` or exercise files.
-- Use the video folder to follow along with each lesson; many folders include example source files to practice.
-
-Next steps & Suggestions
------------------------
-- Add a short index mapping the most important lessons to their folder names for faster navigation.
-- Optionally include expected learning outcomes and prerequisites for the course at the top-level README.
-
+- Generate a `COURSE_INDEX.md` listing the most important videos and exercises.
+- Add a short description file inside each `exercise` folder automatically.
